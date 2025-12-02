@@ -1,0 +1,41 @@
+ .container {
+max-width: 80%;
+margin: 0 auto;
+padding: 20px;
+
+
+ }
+
+ h1 {
+    font-size: 30px;
+    margin-bottom: 20px;
+
+ }
+
+ form {
+    display: flex;
+    justify-content: center;
+    margin-bottom: 20px;
+ }
+
+ input[type="text"]{
+    width: 300px;
+    padding: 10px;
+    border: 1px solid #ccc;
+    border-radius: 5px;
+ } 
+
+ button {
+    padding: 10px 20px;
+    background-color: rgb(221, 92, 17);
+    color: white;
+    border: none;
+    border-radius: 5px;
+    cursor: pointer;
+    margin: 0 3px;
+    transition: 0.5s all ease;
+ }
+
+ button:hover {
+    background-color:rgb(151, 62, 11);;
+ }
